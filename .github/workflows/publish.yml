@@ -47,6 +47,7 @@ jobs:
         with:
           version: 7.x
       - run: pnpm install
+      - run: pnpm build
       - run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
