@@ -17,7 +17,7 @@ jobs:
         with:
           minor-wording: "add,Adds,new,feat"
           major-wording: "MAJOR,cut-major"
-          patch-wording: "patch,fixes"
+          patch-wording: "patch,fix"
           rc-wording: "RELEASE,alpha"
           default: patch
 
