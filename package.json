@@ -1,6 +1,6 @@
 {
   "name": "pacman-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A CLI that detects and installs packages based on the package manager lockfile being used",
   "repository": {
     "type": "git",
