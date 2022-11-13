@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "bin",
     "rootDir": "src",
     "module": "NodeNext",
     "target": "ES2015",

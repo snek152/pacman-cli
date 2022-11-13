@@ -1,5 +1,5 @@
 {
-  "name": "pacman",
+  "name": "pacman-cli",
   "version": "1.1.0",
   "description": "A CLI that detects and installs packages based on the package manager lockfile being used",
   "repository": {
@@ -18,7 +18,9 @@
     "yarn",
     "typescript"
   ],
-  "main": "./dist/cjs/index.js",
+  "bin": {
+    "pacman": "./bin/index.js"
+  },
   "author": "SneK152",
   "license": "MIT",
   "devDependencies": {

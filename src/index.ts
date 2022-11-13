@@ -1,6 +1,4 @@
-// import { readdirSync, readFileSync, writeFileSync } from "fs";
-// import { join } from "path";
-import child_process from "child_process";
+#!/usr/bin/env node
 import chalk from "chalk";
 import { readdirSync } from "fs";
 import yargs from "yargs";
