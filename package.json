@@ -18,6 +18,7 @@
     "yarn",
     "typescript"
   ],
+  "main": "./bin/index.js",
   "bin": {
     "pacman": "./bin/index.js"
   },
